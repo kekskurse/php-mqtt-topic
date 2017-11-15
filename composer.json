@@ -1,0 +1,21 @@
+{
+    "name": "sspssp/mqtt-topic",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kruemel",
+            "email": "git@kekskurse.de"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "SSPSSP\\MQTTTopic\\": ""
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}
