@@ -16,8 +16,8 @@ $p->match("test", "some/other/subscription/rule"); //Returns false
 ## Check ACL
 To check if it is possible to subscribe a topic with a given ACL-Rule.
 
-The first Parameter is the topic the client want to subscribe (with wildcard)
-The second Parameter is the ACL-Rule to check if the subscription is possible (with wildcard)
+The first Parameter is the topic the client want to subscribe (with wildcard).
+The second Parameter is the ACL-Rule to check if the subscription is possible (with wildcard).
 
 ```
 $p = new SSPSSP\MQTTTopic\Parser();
